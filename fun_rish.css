@@ -1,0 +1,195 @@
+*{
+    margin:0%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-weight:400;
+    
+}
+.G{
+    color:#4285F4;
+    font-size:600%;
+}
+.o{
+    color:#DB4437;
+    font-size:600%;
+}
+.o1{
+    color:#F4B400;
+    font-size:600%;
+}
+.g1{
+    color: #4285F4;
+    font-size:600%;
+}
+.l{
+    color:#0F9D58;
+    font-size:600%;
+}
+.e{
+    color: #DB4437;
+    font-size:600%;
+}
+.search{
+    padding:0px;
+    margin-top:25px;
+    display: flex;
+    justify-content: center;
+}
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
+#mySearch{
+    padding:17px;
+    border:3px solid rgb(139, 136, 136) ;
+    border-radius: 23px;
+    width:50%;
+}
+#mySearch:hover{
+    background-color:rgba(70, 133, 206, 0.7);
+    color: rgb(15, 15, 15);
+}
+.google_search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.button1{
+    padding: 15px;
+}
+#button{
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#button:hover{
+    border: 2px solid black;
+    background-color: rgb(158, 155, 155);
+}
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}  
+.futtor{
+    background-color: rgb(221, 219, 219);
+    margin-top:120px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom:0%;
+    border: 3px solid rgb(138, 136, 136);
+    border-radius: 5px;
+    width: 100%;
+
+} 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}  
+.nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 60%;
+    margin-top: 0%;
+
+}
+.Images{
+    margin-top: 30px;
+    margin-left:10%;
+    margin-right:10%;
+    font-size: 150%;
+    font-style: normal;
+    
+}
+.gmail{
+    margin-top: 30px;
+    margin-left:2%;
+    margin-right:2%;
+    font-size: 150%;
+    font-style: normal;
+}
+#apps{
+    margin-top: 30px;
+    margin-left:2%;
+    margin-right:2%;
+    padding-left:22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border: 2px solid rgb(29, 28, 28) ;
+    border-radius: 5px;
+    font-size: 120%;
+    background-color: #65a0ff;
+
+}
+#apps:hover{
+    background-color: #21f4d1;
+}
+.navlogop1{
+    margin-top: 30px;
+    margin-left:2%;
+    margin-right:2%;
+    font-size: 150%;
+    font-style: normal;
+}
+#rish{
+    margin: 200px;
+    padding: 30px;
+    border: 5px solid red;
+}
+#cars{
+    padding: 5px;
+    border: 2px solid rgb(69, 68, 68);
+    font-size: 70%;
+}
+.navlogop{
+    margin-top: 30px;
+    margin-left:2%;
+    margin-right:2%;
+    font-size: 150%;
+    font-style: normal;
+}
+
+
+.navbutton{
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right:2%;
+
+}
+#sign1{
+    padding-left:22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border: 2px solid rgb(29, 28, 28) ;
+    border-radius: 5px;
+    font-size: 130%;
+    background-color: #65a0ff;
+
+}
+#sign1:hover{
+    background-color: #21f4d1;
+}
+.navlogop{
+    width: 20px;
+    height: 20px;
+}
+.about,.Advertising,.Business,.how,.privacy,.terms,.Setting{
+   margin:0%;
+}
+
+

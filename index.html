@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="fun_rish.css">
+    <link rel=" icon" href="/google1.png" style="border-radius:100px ;">
+    <script>
+        function myFunction() {
+          // Declare variables
+          var input, filter, ul, li, a, i;
+          input = document.getElementById("mySearch");
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("myMenu");
+          li = ul.getElementsByTagName("li");
+        
+          // Loop through all list items, and hide those who don't match the search query
+          for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+            } else {
+              li[i].style.display = "none";
+            }
+          }
+        }
+        </script>
+</head>
+<body>
+  <div class="nav1">
+    <nav class="nav2">
+      
+      <a href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><div class="gmail">Gmail</a></div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://www.google.com/search?q=google+images&sxsrf=ALiCzsaQDQiLKP0TL776wGk3hEfjL6-lPw:1658350073087&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiw3pO4q4j5AhWNUGwGHQjyDuYQ_AUoAXoECAEQAw&biw=1536&bih=746&dpr=1.25" target="_blank"><div class="Images">Images</div></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="/app.html" target="_blank"><input type="button" value="Apps♻️" id="apps"></a>
+      <!--<a href="https://www.google.co.in/maps/@26.7274099,83.432327,15z?hl=en&authuser=0"><div class="navlogop">♻️</div></a> -->
+      <a href="https://myaccount.google.com/?hl=en&utm_source=OGB&utm_medium=act" target="_blank"><div class="navbutton"><input id="sign1" type="button" value="Sign in"></div></a>
+    </nav>
+  </div>
+    <div class="main">
+        <div class="G">G</div>
+        <div class="o">o</div>
+        <div class="o1">o</div>
+        <div class="g1">g</div>
+        <div class="l">l</div>
+        <div class="e">e</div>
+    </div>
+    <a href="http://www.google.com/search?q=%s .">
+    <div class="search">
+        <input class="sedarch1" type="text" id="mySearch" onkeyup="myFunction()"placeholder="🔍"
+          title="Type in a category">
+    </div></a>
+    <div class="google_search">
+     <div class="button1">
+      <a href="https://www.google.com" target="_blank"><input id="button" type="submit" value="Google Search"></a>
+     </div>
+      <div class="button2">
+        <a href="https://www.google.com/doodles" target="_blank"><input id="button" type="submit" value="I'm Feeling Lucky"></a>
+      </div>
+    </div>
+    <div class="language">
+      Google offered in:&nbsp;&nbsp;
+      <a href="#"> हिन्दी</a>&nbsp;&nbsp;
+      <a href="#"> বাংলা</a>&nbsp;&nbsp;
+      <a href="#"> తెలుగు</a>&nbsp;&nbsp;
+      <a href="#"> मराठी</a>&nbsp;&nbsp;
+      <a href="#"> தமிழ்</a>&nbsp;&nbsp;
+      <a href="#"> ગુજરાતી</a>&nbsp;&nbsp;
+      <a href="#"> ಕನ್ನಡ</a>&nbsp;&nbsp;
+      <a href="#"> മലയാളം</a>&nbsp;&nbsp;
+      <a href="#"> ਪੰਜਾਬੀ</a>
+    </div>
+    <div class="futtor">
+      <footer>
+        <div class="footer1">
+          &nbsp;&nbsp;&nbsp;&nbsp;India
+        </div>
+        <hr>
+        <div class="footer">
+              <a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1" target="_blank"><div class="about" >About</div></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://ads.google.com/intl/en_in/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" target="_blank"><div class="Advertising">Advertising</div></a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://www.google.com/intl/en_in/business/" target="_blank"><div class="Business">Business</div></a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://www.google.com/search/howsearchworks/?fg=1" target="_blank"><div class="how">How Search works</div></a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://policies.google.com/privacy?hl=en-IN&fg=1" target="_blank"><div class="privacy">Privacy</div></a> &nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://policies.google.com/terms?hl=en-IN&fg=1" target="_blank"><div class="terms">Terms</div></a> &nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://www.google.com/?pccc=1" target="_blank"><div class="Setting">Settings</div></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+       <hr>
+      </footer>
+    </div>
+</body>
+</html>
